@@ -20,8 +20,8 @@ jobs:
               uses: actions/checkout@v3
 
             # exemplo de execução no terminal
-            - name: instalar depencias do projeto
-              run: echo Fabi Tremilioso
+            - name: Instalar depencias do projeto
+              run: npm install
 
             # execução e conf. do projeto
             - name: Run testes
